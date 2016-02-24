@@ -1,0 +1,22 @@
+<plugin name='criteria' version='1.6' grailsVersion='1.3.0 &gt; *'>
+  <author>Paul Fernley</author>
+  <authorEmail>paul@pfernley.orangehome.co.uk</authorEmail>
+  <title>Criteria (record filtering) plugin</title>
+  <description>This plugin allows the user to limit the display of records, typically on a
+'list' page, by specifying a property to be tested, the test to perform and,
+where applicable, the value(s) to test against. Only domain properties with a
+Hibernate 'basic data type' (including enumerations) can be tested. The tests
+available are: equal, not equal, is null, is not null, less than, less than or
+equal to, greater than, greater than or equal to, like, not like, between,
+not between, in and not in.
+</description>
+  <documentation>http://grails.org/Criteria+Plugin</documentation>
+  <resources>
+    <resource>UrlMappings</resource>
+    <resource>org.grails.plugins.criteria.CriteriaController</resource>
+    <resource>org.grails.plugins.criteria.CriteriaService</resource>
+    <resource>org.grails.plugins.criteria.CriteriaTagLib</resource>
+  </resources>
+  <dependencies />
+  <behavior />
+</plugin>

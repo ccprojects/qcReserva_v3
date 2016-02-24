@@ -1,0 +1,6 @@
+DefaultPackage
+grails-app.conf
+grails-app.controllers.org.grails.plugins.criteria
+grails-app.services.org.grails.plugins.criteria
+grails-app.taglib.org.grails.plugins.criteria
+scripts
